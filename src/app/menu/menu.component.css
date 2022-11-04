@@ -1,0 +1,5 @@
+.menu {
+  grid-area: footer;
+  background: red;
+  height: 100%;
+}
