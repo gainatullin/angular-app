@@ -1,5 +1,13 @@
 .menu {
-  grid-area: footer;
-  background: red;
+  display: grid;
+  justify-content: center;
+  background: #000;
+  opacity: 70%;
   height: 100%;
+}
+
+.menu_list li {
+  margin-bottom: 60px;
+  color: #fff;
+  font-size: 24px;
 }

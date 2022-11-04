@@ -2,5 +2,12 @@
   display: grid;
   place-items: center;
   grid-area: main;
-  background: green;
+  background: #fff;
+}
+
+.list {
+  padding: 24px;
+  grid-area: list;
+  background: #25272A;
+  opacity: .8;
 }

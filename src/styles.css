@@ -3,6 +3,11 @@ body {
   margin: 0;
 }
 
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
 h1,
 h2,
 h3,
@@ -14,8 +19,8 @@ h6 {
 
 .root {
   display: grid;
-  grid-template-areas: 'footer main';
-  grid-template-columns: 80px 1fr;
+  grid-template-areas: 'footer list main';
+  grid-template-columns: 80px 1fr 2fr;
   grid-template-rows: 1fr;
   height: 100vh;
 }
